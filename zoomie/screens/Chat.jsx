@@ -26,7 +26,7 @@ export default function Chat(props) {
   useEffect(_ => {
     props.navigation.setOptions({ title: garage.name.toUpperCase()})
     getChats();
-    socket = io('http://192.168.0.150:3000');
+    socket = io('https://shielded-everglades-57170.herokuapp.com/');
     socket.on("newChat", newChatCallback);
 
     return () => {

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'http://192.168.0.150:3000'
+  baseURL: 'https://shielded-everglades-57170.herokuapp.com'
 })
 
 export default instance

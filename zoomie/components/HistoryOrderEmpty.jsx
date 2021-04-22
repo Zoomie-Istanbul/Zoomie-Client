@@ -20,7 +20,7 @@ export default function SuccessPage(props) {
         style={styles.emptyImage}
         source={require('../assets/img/order-empty.png')}
       />
-      <Text style={styles.title}>No Active Order Yet</Text>
+      <Text style={styles.title}>No Order History Yet</Text>
     </View>
   );
 }

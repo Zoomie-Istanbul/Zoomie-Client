@@ -23,16 +23,6 @@ export default function ProfileBengkel (props) {
     }
   }, [])
 
-  
-  useEffect(() => {
-    let mounted = true;
-    getGarage()
-    
-    return function cleanup () {
-      mounted = false;
-    }
-  }, [user])
-
   async function getGarage() {
     try {
       const id = await AsyncStorage.getItem('@id');

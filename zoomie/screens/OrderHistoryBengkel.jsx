@@ -5,7 +5,7 @@ import { useFonts } from '@expo-google-fonts/inter';
 import { useDispatch, useSelector } from 'react-redux'
 import HistoryOrderCard from '../components/HistoryOrderBengkelCard'
 import { fetchAllTransactionById } from '../store/actions/transactions'
-import OrderEmpty from '../components/OrderEmpty'
+import HistoryOrderEmpty from '../components/HistoryOrderEmpty'
 import { useIsFocused } from '@react-navigation/native'
 import axios from '../axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -66,7 +66,7 @@ export default function OrderHistoryBengkel (props) {
       </View>
       <ScrollView>
         {
-          dataFilter.length === 0 ? <OrderEmpty /> :
+          dataFilter.length === 0 ? <HistoryOrderEmpty /> :
           dataFilter.map((transaction, index) => {
             return <HistoryOrderCard transaction={transaction} key={index}/>
           })
