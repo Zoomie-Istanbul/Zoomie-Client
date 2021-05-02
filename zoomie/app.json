@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "zoomie",
+    "name": "Zoomie",
     "slug": "zoomie",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This is Hacktiv8 Final Project, with  :\n1.  Muhammad Syaifullah (Backend)\n2.  Agung Hanifan Lutfiyanto (Front End)\n3.  Angganararas Lungidningtyas (Front End)\n4.  Firman Isnaeni (Backend)\n5.  Diardo Marendi Krista (Front End)\n\nDescription:\nZoomie is a mobile focused app which acts as an intermediary for users to garage workshop owners. With Zoomie, workshop owners will have the opportunities to promote their business by specifying the services or spare parts they provide and to even cater to specific needs or modifications of vehicle owners or community groups. For users, Zoomie helps by providing details or ratings from different workshops and compare the services they provide to cater for their specific needs and to reduce the possibilities of fraudulent activities by garage workshops. ",
+    "githubUrl": "https://github.com/Zoomie-Istanbul"
   }
 }
