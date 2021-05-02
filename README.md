@@ -2,12 +2,10 @@
 
 # Screenshots
 1. Welcome Screen - Home Screen - Order & Book Screen
-<br/>
 ![screenshoot 1](/assets/screenshoots/screenshoot1.jpg)
 <br/>
 
 2. Detail Order Screen - Realtime Chat Screen - Profile Screen
-<br/>
 ![screenshoot 2](/assets/screenshoots/screenshoot2.jpg)
 
 <br />
@@ -32,5 +30,5 @@ https://expo.io/@diardo/projects/zoomie
 <br />
 
 
-![screenshoot 2](/assets/icon.png)
-![screenshoot 2](https://media-exp1.licdn.com/dms/image/C4E0BAQF8H0ymLxDgeA/company-logo_200_200/0/1601967650318?e=2159024400&v=beta&t=0JdmXAA74tPNMgH-fQwsgIQz2YVeMgBhXxlHT2U2wH8)
+![logo 1](/assets/icon.png)
+![logo 2](https://media-exp1.licdn.com/dms/image/C4E0BAQF8H0ymLxDgeA/company-logo_200_200/0/1601967650318?e=2159024400&v=beta&t=0JdmXAA74tPNMgH-fQwsgIQz2YVeMgBhXxlHT2U2wH8)
